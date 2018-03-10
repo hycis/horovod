@@ -159,6 +159,10 @@ See full training [simple](examples/keras_mnist.py) and [advanced](examples/kera
 all GPUs on the server, instead of the GPU assigned by the *local rank*. If you have multiple GPUs per server, upgrade
 to Keras 2.1.2, or downgrade to Keras 2.0.8.
 
+## TensorGraph
+
+Horovod can be easily integrated with [TensorGraph](https://github.com/hycis/TensorGraph). For an [example](https://github.com/hycis/TensorGraph/blob/master/examples/multi_gpus_horovod.py).
+
 ## Estimator API
 
 Horovod supports Estimator API and regular TensorFlow in similar ways.
